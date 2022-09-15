@@ -1,0 +1,24 @@
+# Use Cases - Fully Dressed
+
+1. Registering for an account        
+- https://docs.google.com/spreadsheets/d/1atAoSoUagu9rG3-VuuklzuovL-GNfCn1eJ-ikwl1lYA/edit?usp=sharing 
+
+2. Purchasing a ticket
+- https://docs.google.com/document/d/1NSHm9fEsdxhwE0jgzbjxXB_X-lVjZ5Kl4PFSfbseDoQ/edit?usp=sharing
+
+# Supplemental Specs
+We will be using a Shopify API for ease of use for the customer.
+
+The system will also have many non-functional requirements such as:
+- Security 
+- Reliability 
+- Supportability 
+
+The system will also contain full documentation of all use cases, system requirements, etc.
+
+# Glossary
+Event-goers: Our main actors, the customers perusing and buying tickets for COFC games
+
+# Domain Model
+
+![domainChart](https://user-images.githubusercontent.com/75393933/189246575-76390a25-760f-438f-a7b3-249ae4a7bfc7.png)
