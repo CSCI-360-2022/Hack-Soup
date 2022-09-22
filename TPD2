@@ -1,0 +1,79 @@
+
+| Use Case Name  | Registering Account |
+| ------------- | ------------- |
+| Scope  | Ticketing System  |
+|Level|user-goal|
+|Primary Actor|User/Event-goer|
+|Stakeholders and Interests|"- User: Wants to be able to access the event information, purchase tickets, and view events. <br/>- School: Wants a software to accurately display event information, remaining ticket values, and achieve sales <br/>- Developer: Wants the program to be accurate, successful, and properly function"|
+|Preconditions|The user wishes to create a new account and all system requirements are functional|
+|Success Guarantee|The account is properly registered, information stored into a database, and accessibility for future use|
+|Main Success Scenario|"1. User opens the application <br/>2. User clicks on ""Register new account""<br/>3. User enters information including: email and new password<br/>4. System responds the user that a new account has been successfully created<br/>5. User is now prompted to log-in to the application<br/>6. Using new information, user successfully logins into the application"|
+|Extensions (Alternate Scenario)|"1a. The application is currently down<br/>1. The user is how option but to wait until the application is back online<br/>2. The developer will be notified of the interference and assist in getting the application back online<br/><br/>2a. The ""Register new account"" button is not currently displayed on the application <br/>    1. The user would again have to wait until the application is fixed <br/>1a. Requires the developer to issue a rollback of the application or fix the bug <br/><br/>3a. The user enters the incorrect information<br/>     1. After entering incorrect information the user would unknowingly go to login with their original email and be denied access<br/>          1a. The user goes back through the registration process with the correct information <br/>          1b. The user attempts to contact the database manager to correct the fix<br/>                 1. The database manager may not have access to overwrite this error<br/><br/>     2. There is already an account under that email address <br/>          1. The user will have to go through the ""reset password"" option to see if they perhaps already have an account<br/>               1a. If the user does not already have account, they may contact support to attempt to correct the error <br/><br/>4a. There is an error in creating the new account <br/>       1. The account already exists<br/>                1a. Refer to (3a)<br/>       2. The application is not responding <br/>                 2. Attempt to refresh the page, and submit another account registration <br/><br/>5a. User is not prompted to log-in to the application<br/>       1. A manual return to the login page will be needed by the user<br/><br/>5b. Application crash <br/>       1. Refresh the page and return to the login page and attempt to login <br/><br/>6a. Login failed <br/>       1. Attempt to login again while making sure you are using the correct username + password <br/>                 1a. If your password is incorrect, go through the proper channels to reset your password<br/>                 1b. If your password that you are entering matches the password used when registering for the account, user  may need to reach out to support to fix the error|
+|Special Requirements|1. User must enter a password of at least length (8) with 1 special character <br/>2. User may need to verify account<br/>3. User may need to complete a "human-verification"|
+
+| Use Case Name         | Log In                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Scope                 | login page                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Level                 | user-goal                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Primary Actor         | User / Event-Goer                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Stakeholders          | User: The user who wants to sign in to the application School: CofC wants to be able for users to successfully login Developers: Making sure that their application works                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Preconditions         | The user has opened the application and is looking to login to the page                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Success Guarantee     | The user has logged in and can now properly access the page                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Main Success Scenario | 1. User opens application 2. User types in their username and password  3. User is now granted access to the application                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Extensions            | 1a. The application is currently down     1. The user will have to wait until the application is back online  2a. The user has forgotten their password     1. The user must have the application send a reset password link to reset their password 2b. The user has forgotten their username    1. The user will have to click "forgot username", enter their email and reset their password   3a. The user is not granted access into the application    1. The user possibly entered the wrong username and password        1a. The user will have to go back to the login page and enter the correct information     2. The application does not open to the main page        2a. For some reason the application is broken and the user will have to wait until the bug is fixed  |
+| Special Requirements  | 1. The user has to enter their proper username and password                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+| Use Case Name  | Browse Games |
+| ------------- | ------------- |
+| Scope  | Main Page  |
+|Level|user-goal|
+|Primary Actor|Event-Goer|
+|Stakeholders and Interests|- User: Wants to be able to access the event information, purchase tickets, and view events. <br/>- School: Wants a software to accurately display event information, remaining ticket values, and achieve sales <br/>- Developer: Wants the program to be accurate, successful, and properly function|
+|Preconditions| Event-Goer has logged in and is ready to browse|
+|Success Guarantee|The user scrolls through the games on display and finds the information they need|
+|Main Success Scenario|1.User sees the games on display <br/> 2. User scrolls up or down to see more games|
+|Extensions (Alternate Scenario)|1a. User clicks on a game to see more information about the game|
+|Special Requirements|User must have the hardware necessary to scroll|
+
+| Use Case Name  | Purchase Ticket |
+| ------------- | ------------- |
+| Scope  | The pairing of API and our system |
+|Level|User-goal|
+|Primary Actor|Event-Goers|
+|Stakeholders and Interests|- User: Wants to be able to access the event information, purchase tickets, and view events. <br/>- School: Wants a software to accurately display event information, remaining ticket values, and achieve sales <br/>- Developer: Wants the program to be accurate, successful, and properly function|
+|Preconditions|Event-Goer will be on the program/website and will have a ticket in their cart|
+|Success Guarantee|Event Goer will use the shopify API to purchase the ticket and will then have their receipt in their email|
+|Main Success Scenario|1.User clicks the view cart on the website.<br/>2.User clicks check out button and is now using the interface given through shopify<br/>3.User completes transaction through the shopify interface|
+|Extensions (Alternate Scenario)|2a user can back out and continue to peruse tickets and games<br/>2b user can close application and exit the transaction entirely|
+|Special Requirements|There are no special requirements for Event-Goer for this use-case|
+
+<br/>
+
+![registeringAccountSeq](https://user-images.githubusercontent.com/28304985/191816825-f806a341-c423-4b8a-a25f-6c371dc22176.png)
+<br/>
+![logInSeq](https://user-images.githubusercontent.com/28304985/191837353-320fd261-e89a-40c3-8dad-4927dc4844a7.png)
+<br/>
+![browseGamesSeq](https://user-images.githubusercontent.com/28304985/191837797-c03b8ceb-89fe-4591-ba01-5772ab255fa2.png)
+<br/>
+![purchasingTicketSeq](https://user-images.githubusercontent.com/28304985/191818111-ca43a392-90a4-4923-beea-7457d29007c4.png)
+<br/>
+Operation: Make an Account<br/>
+Cross References: Use Cases: Registering Account<br/>
+Preconditions: The user wishes to create a new account and all system requirements are functional<br/>
+Post-conditions: Event-Goer has made an account<br/>
+<br/>
+Operation: Log In<br/>
+Cross References: Use Cases: Log In<br/>
+Preconditions: The user has opened the application and is looking to login to the page<br/>
+Post-conditions: Event-Goer has logged in<br/>
+<br/>
+Operation: Browse Games<br/>
+Cross References: Use Cases: Browse Games<br/>
+Preconditions: Event-Goer has logged in and is ready to browse<br/>
+Post-conditions: Event-Goer has the information they wanted to know about a game<br/>
+<br/>
+Operation: Purchase Ticket<br/>
+Cross References: Use Cases: Purchase Ticket<br/>
+Preconditions: Event-Goer will be logged on the program/website and will have a ticket in their cart<br/>
+Post-conditions: Event-Goer has purchased a ticket and the receipt is in their email<br/>
+<br/>
