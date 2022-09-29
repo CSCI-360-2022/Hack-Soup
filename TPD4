@@ -1,0 +1,12 @@
+Objects needed 
+- Event details
+- Event locations
+- User  
+
+Interactions
+- The user will have the bulk of the object interactions with the system as they are the ones making the calls to the system. In relation to the system sequence diagram for registering an account, you can see examples of how those interactions will work 
+- The site data class will contain the event objects that will be used to display that data. When the user makes a call on an event for example, then those event objects will be accessed and returned to the user
+
+Responsibilities
+- The event objects will be responsible for returning any / all information on the events listed on the application. It will also have to be adaptable to updates on the events and handle user calls in response to those updates
+- The user object will be responsible for handling all of the user information for that account, and transferring that data to the application in the event of a call: for a use case like purchasing a ticket. 
