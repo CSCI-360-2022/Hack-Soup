@@ -1,0 +1,5 @@
+
+
+Abuse Case: A Bad Actor attempts to use a credit card and charge it back. Mitigated by use of the API that will have their own mitigations against attackers.
+
+Misuse Case: An Actor misreads the date and thus doesn't plan their day correctly. Mitigated by large and easy to read text.
