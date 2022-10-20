@@ -1,5 +1,18 @@
+Misuse case name: Denial of Service
+Summary: A Bad Actor attempts to attack the log in system by using a script to log into our system repeatedly thus depleting our server resources and becoming a denial of service to other actors.
+Author: Catherine Perry
+Preconditions
+Basic path: 1) Bad Actor navigates to log in page
+            2) Bad Actor attempts to DDoS our page using the log in page
+            3) Our system mitigates this by buffering log in attempts with a reCAPTCHA, a captcha service provided by Google            
+Alternative paths: 1) Bad Actor backs out before attacking
 
 
-Abuse Case: A Bad Actor attempts to use a credit card and charge it back. Mitigated by use of the API that will have their own mitigations against attackers.
+Misuse case name: Misread Information
+Summary: An Actor misreads the date and thus doesn't plan their day correctly. Mitigated by large and easy to read text.
+Author: Catherine Perry
+Preconditions: Misuser is on the page
+Basic path: 1) While browsing the user misreads the time or date of the game
+            2) Our system will mitigate this by using fonts that are easy to read and have contrast with the background
+Alternative paths:
 
-Misuse Case: An Actor misreads the date and thus doesn't plan their day correctly. Mitigated by large and easy to read text.
