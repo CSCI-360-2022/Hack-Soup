@@ -1,0 +1,43 @@
+public class Cart {
+ 
+    String ticketID;
+    String userID;
+
+    
+    void setTicketID(String id){
+        ticketID = id; 
+    }
+    void setUserID(String id){
+        userID = id; 
+    }
+
+    String getTicketID(){
+        return ticketID;
+    }
+    String getUserID(){
+        return userID;
+    }
+
+
+    public boolean purchaseTicket(String event){
+       
+        // purchasedEvents will be next class implemented 
+        if(purchasedEvents.contains(ticketID)){
+            return true; 
+        }
+        else{
+            return false; 
+        }
+    }
+
+    public boolean reserveSeat(String seat){
+
+        // .seats will be a variable within the purchasedEvents class 
+        if(purchasedEvents.seats.contains(ticketID)){}
+            return true;
+        }
+        else{
+            return false; 
+        }
+
+}
