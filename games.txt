@@ -1,0 +1,34 @@
+Sport: Basketball
+8/16 - Cofc vs UNC
+8/18 - Cofc vs Townsen
+8/21 - Cofc vs Drexel
+9/01 - CofC vs Duke
+9/15 - CofC vs Kansas
+
+Sport Volleyball
+5/10 - Cofc vs UNC
+5/16 - Cofc vs Townsen
+6/20 - Cofc vs Drexel
+6/25 - CofC vs Duke
+7/02 - CofC vs Kansas
+
+Sport Baseball
+8/19 - Cofc vs UNC
+8/23 - Cofc vs Townsen
+8/25 - Cofc vs Drexel
+8/26 - CofC vs Duke
+8/30 - CofC vs Kansas
+
+Sport Cross Country
+10/04 - Cofc vs UNC
+10/16 - Cofc vs Townsen
+10/29 - Cofc vs Drexel
+11/07 - CofC vs Duke
+12/16 - CofC vs Kansas
+
+Sport Soccer
+9/16 - Cofc vs UNC
+9/20 - Cofc vs Townsen
+10/23 - Cofc vs Drexel
+10/29 - CofC vs Duke
+11/16 - CofC vs Kansas
