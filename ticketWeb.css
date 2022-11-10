@@ -1,5 +1,8 @@
 .title {
-    color: darkred
+  float: left;
+  width: 20%;
+  padding: 5px;
+  float: top;
 }
 
 /* CSS */
@@ -32,8 +35,8 @@
 /* Style the header with a grey background and some padding */
 .header {
     overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
+    background-color: #ffffff;
+    padding: 10px 10px;
   }
   
   /* Style the header links */
@@ -81,4 +84,26 @@
     .header-right {
       float: none;
     }
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
   }
